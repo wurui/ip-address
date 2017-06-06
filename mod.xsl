@@ -2,9 +2,8 @@
     <xsl:template match="/root" name="wurui.ip-address">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-ip-address" ox-mod="ip-address">
-            <h1>
-                This is mod ip-address;
-            </h1>
+            你的地址是<xsl:value-of select="data/address/province"/> <xsl:value-of select="data/address/city"/>
+            <xsl:value-of select="data/address/district"/>
         </div>
     </xsl:template>
 </xsl:stylesheet>
