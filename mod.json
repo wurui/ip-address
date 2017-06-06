@@ -1,0 +1,6 @@
+{
+  "name": "ip-address",
+  "version": "0.0.1",
+  "apiDependencies": ["address"]
+}
+
